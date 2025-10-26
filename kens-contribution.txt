@@ -1,0 +1,43 @@
+STEPS ON HOW TO PUSH AN EXISTING FILE FROM YOUR LOCAL MACHINE TO GITHUB.
+
+STEP 1.
+. Go to https://github.com/new
+. Enter a repository name (eg. my-old-project)
+. Choose Public or Private
+. Don't initialize with a README.md, .gitignore or license yet
+. Click "create repository"
+Github will show you a page with few lines of command.
+
+STEP 2.
+Go to the old project folder, right click on it, you will see a dropdown, select"show more options" and click on "Git bash here". With this act, you are now directly inside your project folder. This act is the same with opening your git bash terminal and running: cd Desktop/old-project i.e if the folder is on your desktop.
+
+STEP 3.
+Initialize git by typing this code on your git bash terminal:
+git init
+This creates a hidden .git folder; meaning your project is now in your local git repository.
+
+STEP 4.
+Add your project files with:
+git add .
+This stages all your files (the . means everything).
+
+STEP 5.
+Commit your changes with:
+git commit -m "initial commit,uploading existing project"
+
+STEP 6.
+Add the remote Github repository by copying its url and run:
+git remote add origin https;//github.com/...
+To verify run:
+git remlte -v
+
+STEP 7.
+Push your old project to Github with:
+git branch -M main 
+# The above code changes your branch name from master to main.
+Next run:
+git push -u origin main
+# This pushes your entire local project to your new Github repository.
+
+STEP 8.
+Check your Github repository, all your files will be there.
