@@ -1,0 +1,9 @@
+THIS IS MY CONTRIBUTION
+
+Having spent a few weeks in the DevOps Class, I have learnt the following;
+
+1. How to install Gitbash and setup my Github account
+2. How to run the Gitbash CLI for scripting and accessing servers i.e VirtualBox. Hoping to use it to access the AWS Console soon
+3. How to collaborate on a project from the Github Repository.
+4. Above all, I've learnt resilience when stuck, and not to be shut down when codes don't add up.
+5. With these few points of mine, I hope I've been able to convince you to exit my document NOW before I upload virus to your repo.
