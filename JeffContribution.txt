@@ -1,0 +1,1 @@
+Git is the technology that track changes and modification to a file. \nGit is the whole technology tracking changes, version control, reverting back to old version. \nGithub is a web interface that extends the functionality of Git.
